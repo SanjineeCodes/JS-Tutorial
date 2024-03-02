@@ -2,7 +2,7 @@
 
 
 ## TypeScripting
-On the top of JavaScript, TypeScript adds static typing. Also TypeScript is Object Oriented.
+On the top of JavaScript, TypeScript adds static typing. Also TypeScript is Object Oriented Programming Language whereas JavaScript is the programming language for the web
 1. JavaScript is a loosely typed language. It can be difficult to understand what types of data are being passed around in JavaScript.
 2. In JavaScript, function parameters and variables don't have any information! So developers need to look at documentation, or guess based on the implementation.
 3. TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.
@@ -36,6 +36,21 @@ Framework and Library has one difference that is 'inversion of Control'.
 ## Internal Javascript vs External Javascript
   1- Internal: JS can be inserted into documents using Script tag using which a block is created to write JS programs.
   2- External:  <script src='myscript.js'></script>
+
+## Variables
+Variables are Containers for Storing Data and Variables can be declared in 4 ways:
+Automatically
+Using var
+Using let
+Using const
+Difference Between var, let and const
+Scope	Redeclare	Reassign	Hoisted	Binds this
+var	No	Yes	Yes	Yes	Yes
+let	Yes	No	Yes	No	No
+const	Yes	No	No	No	No
+
+#### Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function). JavaScript only hoists declarations, not initializations.
+
 
 ## Functions in JS
 #### 1- alert()
