@@ -39,15 +39,15 @@ Framework and Library has one difference that is 'inversion of Control'.
 
 ## Variables
 Variables are Containers for Storing Data and Variables can be declared in 4 ways:
-Automatically
-Using var
-Using let
-Using const
-Difference Between var, let and const
-Scope	Redeclare	Reassign	Hoisted	Binds this
-var	No	Yes	Yes	Yes	Yes
-let	Yes	No	Yes	No	No
-const	Yes	No	No	No	No
+1. Automatically
+2. Using var
+3. Using let
+4. Using const
+		Difference Between var, let and const
+		Scope	Redeclare	Reassign	Hoisted	Binds this
+	*.   var	No	Yes	Yes	Yes	Yes
+	*.   let	Yes	No	Yes	No	No
+	*. const	Yes	No	No	No	No
 
 #### Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function). JavaScript only hoists declarations, not initializations.
 
