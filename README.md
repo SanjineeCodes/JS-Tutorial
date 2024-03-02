@@ -1,5 +1,14 @@
 # JS-Tutorial
 
+
+## TypeScripting
+On the top of JavaScript, TypeScript adds static typing. Also TypeScript is Object Oriented.
+1. JavaScript is a loosely typed language. It can be difficult to understand what types of data are being passed around in JavaScript.
+2. In JavaScript, function parameters and variables don't have any information! So developers need to look at documentation, or guess based on the implementation.
+3. TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.
+
+
+## JavaScript
 1. It is interpreted, client-side (runs on user browser), event-based, OO scripting ( Scripting languages are those interpreted (X not compiled) languages which are directly converted to machine learning code.),  case senseitiv language. 
 2. It was invented in 1995 at Netscape Corporation.
 
