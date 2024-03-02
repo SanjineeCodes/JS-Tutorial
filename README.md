@@ -43,8 +43,9 @@ Variables are Containers for Storing Data and Variables can be declared in 4 way
 2. Using var
 3. Using let
 4. Using const
-		Difference Between var, let and const
-		Scope	Redeclare	Reassign	Hoisted	Binds this
+
+Difference Between var, let and const
+	Scope	Redeclare	Reassign	Hoisted	Binds this
 	*.   var	No	Yes	Yes	Yes	Yes
 	*.   let	Yes	No	Yes	No	No
 	*. const	Yes	No	No	No	No
